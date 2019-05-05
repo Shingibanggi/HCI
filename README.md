@@ -61,7 +61,7 @@
 
 **5. Source Code**
 
-    “SourceCode” 폴더에 있음
+[click](https://github.com/Shingibanggi/HCI/tree/master/SourceCode)
 
 
 **6. 구동방식**
