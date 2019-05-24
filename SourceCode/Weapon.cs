@@ -164,6 +164,9 @@ public class Weapon : MonoBehaviour
     public Vector3 recoilKickback;
     public float recoilAmount;
 
+    //enemy damage
+    float damage = 10f;
+
     // Use this for initialization
     private void Start()
     {
@@ -214,6 +217,11 @@ public class Weapon : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(shootPoint.position, shootPoint.transform.forward, out hit, range))
         {
+            Swat swat = hit.transform.GetComponent<Swat>();
+            if (swat) {
+                swat.ApplyDamage(damage);
+            }
+
             GameObject hitSpark = Instantiate(hitSparkPrefab, hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
             Destroy(hitSpark, 0.5f); // Destroying automatically
             GameObject hitHole = Instantiate(hitHolePrefab, hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
