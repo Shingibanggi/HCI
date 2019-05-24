@@ -85,7 +85,7 @@
     첫 번째는 기존의 FPS게임방식과 유사하게 마우스와 키보드를 활용한 interaction이다.  마우스의 이동에 따라 시점이 움직이게 한다. 
     정전은 자동으로 되며(총 1500발, 30발씩 장전됨), 사람이 이동하는 것은 키보드 방향키로 조작한다.
     두 번째는 leap motion device을 활용한 interaction이다. 손가락 모션을 이용하여 총알을 발사하고, 
-    다른 한쪽 손의 손바닥을 움직여 시점과 움직임을 조절한다. 이러한 leap motion을 이용한 interaction을 구현하기 위해 GameWAVE와 Touchless For Mac 툴	을 이용하였다.
+    다른 한쪽 손의 손바닥을 움직여 시점과 움직임을 조절한다. 이러한 leap motion을 이용한 interaction을 구현하기 위해 GameWAVE와 Touchless For Mac 툴을 이용하였다.
 
     GameWAVE는 마우스와 키보드를 통한 interaction을 leap motion device을 통한 interaction으로 변환하여 주는 툴이다. 
     위의 사진과 같이 개발자가 직접 마우스와 키보드의 속도, 방향, 클릭 등을 원하는 손동작과 대응시킬 수 있으며, 이를 통해 다양한 interaction 조작이 가능하다. 
