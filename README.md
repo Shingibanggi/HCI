@@ -22,12 +22,22 @@
 
 - Personal 선택
 
-<img width="451" alt="image" src="https://user-images.githubusercontent.com/31753296/57194036-cef06680-6f7c-11e9-8715-c0e1820b4584.png">
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/31753296/57194036-cef06680-6f7c-11e9-8715-c0e1820b4584.png">
 
 
 - 약관 동의 후 Unity Hub 다운로드를 클릭한다. 로그인 후 사용할 수 있다.
 
-<img width="451" alt="image" src="https://user-images.githubusercontent.com/31753296/57194038-d0ba2a00-6f7c-11e9-87f8-2b4ce0be8b1b.png">
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/31753296/57194038-d0ba2a00-6f7c-11e9-87f8-2b4ce0be8b1b.png">
+
+3)	Touchless For Mac
+- Touchless for Mac을 pc에 다운로드 한다. [Download_Link](https://gallery.leapmotion.com/touchless-for-mac/) 
+
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/31753296/58338541-d66fa500-7e82-11e9-95e3-b6e0c4482dfb.png">
+
+- 실행하면 아래와 같은 화면이 뜬다.
+
+<img width="333" alt="스크린샷 2019-05-25 00 22 35" src="https://user-images.githubusercontent.com/31753296/58338704-38c8a580-7e83-11e9-9f37-cc74d84794bd.png">
+
 
 
 ###  3. Research
