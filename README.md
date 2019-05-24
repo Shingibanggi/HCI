@@ -11,32 +11,37 @@
 1)	Leap motion
 - Leap motion setup을 pc에 다운로드 한다. 
 
-<img width="333" alt="image" src="https://user-images.githubusercontent.com/31753296/57194047-e0397300-6f7c-11e9-82d7-5788bdfc2381.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/31753296/57194047-e0397300-6f7c-11e9-82d7-5788bdfc2381.png">
 
 - 아래 파일들을 다운로드한다. 
 
-<img width="340" alt="image" src="https://user-images.githubusercontent.com/31753296/57194033-ca2bb280-6f7c-11e9-970f-6893d4dfd223.png">
-<img width="360" alt="image" src="https://user-images.githubusercontent.com/31753296/57194035-cc8e0c80-6f7c-11e9-86f7-761c424e33d0.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/31753296/57194033-ca2bb280-6f7c-11e9-970f-6893d4dfd223.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/31753296/57194035-cc8e0c80-6f7c-11e9-86f7-761c424e33d0.png">
 
 2)	Unity
 
 - Personal 선택
 
-<img width="333" alt="image" src="https://user-images.githubusercontent.com/31753296/57194036-cef06680-6f7c-11e9-8715-c0e1820b4584.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/31753296/57194036-cef06680-6f7c-11e9-8715-c0e1820b4584.png">
 
 
 - 약관 동의 후 Unity Hub 다운로드를 클릭한다. 로그인 후 사용할 수 있다.
 
-<img width="333" alt="image" src="https://user-images.githubusercontent.com/31753296/57194038-d0ba2a00-6f7c-11e9-87f8-2b4ce0be8b1b.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/31753296/57194038-d0ba2a00-6f7c-11e9-87f8-2b4ce0be8b1b.png">
 
 3)	Touchless For Mac
-- Touchless for Mac을 pc에 다운로드 한다. [Download_Link](https://gallery.leapmotion.com/touchless-for-mac/) 
+- Touchless for Mac을 pc에 다운로드 한다. [Download_link](https://gallery.leapmotion.com/touchless-for-mac/) 
 
-<img width="333" alt="image" src="https://user-images.githubusercontent.com/31753296/58338541-d66fa500-7e82-11e9-95e3-b6e0c4482dfb.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/31753296/58338541-d66fa500-7e82-11e9-95e3-b6e0c4482dfb.png">
 
 - 실행하면 아래와 같은 화면이 뜬다.
 
-<img width="333" alt="스크린샷 2019-05-25 00 22 35" src="https://user-images.githubusercontent.com/31753296/58338704-38c8a580-7e83-11e9-9f37-cc74d84794bd.png">
+<img width="450" alt="스크린샷 2019-05-25 00 22 35" src="https://user-images.githubusercontent.com/31753296/58338704-38c8a580-7e83-11e9-9f37-cc74d84794bd.png">
+
+4)	GameWave
+- Gamewave를 pc에 다운로드 한다. [Download_link](http://uwyn.com/gamewave/)
+
+<img width="450" alt="스크린샷 2019-05-25 00 26 21" src="https://user-images.githubusercontent.com/31753296/58339112-d91eca00-7e83-11e9-872f-d9861011d467.png">
 
 
 
@@ -80,13 +85,18 @@
     첫 번째는 기존의 FPS게임방식과 유사하게 마우스와 키보드를 활용한 interaction이다.  마우스의 이동에 따라 시점이 움직이게 한다. 
     정전은 자동으로 되며(총 1500발, 30발씩 장전됨), 사람이 이동하는 것은 키보드 방향키로 조작한다.
     두 번째는 leap motion device을 활용한 interaction이다. 손가락 모션을 이용하여 총알을 발사하고, 
-    다른 한쪽 손의 손바닥을 움직여 시점과 움직임을 조절한다. 이러한 leap motion을 이용한 interaction을 구현하기 위해 GameWAVE라는 툴을 이용하였다.
+    다른 한쪽 손의 손바닥을 움직여 시점과 움직임을 조절한다. 이러한 leap motion을 이용한 interaction을 구현하기 위해 GameWAVE와 Touchless For Mac 툴	을 이용하였다.
 
     GameWAVE는 마우스와 키보드를 통한 interaction을 leap motion device을 통한 interaction으로 변환하여 주는 툴이다. 
     위의 사진과 같이 개발자가 직접 마우스와 키보드의 속도, 방향, 클릭 등을 원하는 손동작과 대응시킬 수 있으며, 이를 통해 다양한 interaction 조작이 가능하다. 
-    아래의 링크는 GameWAVE tutorial영상이다. 
+    아래의 링크는 GameWAVE tutorial영상이다. 이를 활용하여 게임 안에서 player의 move를 컨트롤하였다.
 
     https://www.youtube.com/watch?v=bsQK3ab3YhQ
+    
+    Touchless For Mac는 립모션으로 mouse를 control하기 위한 툴이며, 기준 선을 넘어가면 mouse click이 되는 방식이다.
+    이를 활용해 player가 총을 쏘는 동작을 컨트롤하였다. 
+
+
 
 ###  7. 향후 계획
 
